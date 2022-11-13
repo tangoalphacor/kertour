@@ -22,3 +22,7 @@ body{
     background-color: bisque;
     
 }
+.nav-item:hover{
+    background-color: rgb(255, 127, 133);
+    border: 1px solid red;
+}

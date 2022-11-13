@@ -16,3 +16,7 @@ body{
     background-attachment: fixed;
     background-position: center;
 }
+.nav-item:hover{
+    background-color: rgb(255, 127, 133);
+    border: 1px solid red;
+}
