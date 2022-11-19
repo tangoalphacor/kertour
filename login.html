@@ -14,26 +14,23 @@
 
         <h1 class="text-center">USER LOGIN</h1>
         
-        <form class="needs-validation">
+        <form class="needs-validation" action="district.html">
             <div class="form-group was-validated">
                 <label class="form-label" for="email">USER NAME</label>
                 <input class="form-control" type="email" id="email" required>
-                <div class="invalid-feedback">
-                    Please enter your user name
-                </div>
+                <label for="error" id="error"></label>
             </div>
             <div class="form-group was-validated">
-                <label class="form-label" for="password">PASSWORD</label>
+                <label class="form-label" for="passwor" >PASSWORD</label >
                 <input class="form-control" type="password" id="password" required>
-                <div class="invalid-feedback">
-                    Please enter your password
-                </div>
+                <label for="error" id="eror"></label>
             </div>
-            <input class="btn btn-success w-100" type="submit" value="SIGN IN">
+            <input class="btn btn-success w-100" type="submit" value="SIGN IN" onclick="return valid(),pasvalid()" >
             <br><br>
             <a href="index.html">Homepage</a>
         </form>
 
     </div>
+    <script src="login.js"></script>
 </body>
 </html>

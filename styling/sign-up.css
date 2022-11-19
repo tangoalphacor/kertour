@@ -9,7 +9,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #4070f4;
     background-image: url("../images/2.gif");
     background-size:cover;
     background-repeat: no-repeat;
@@ -97,4 +96,12 @@
   form .text h3 a:hover{
     text-decoration: underline;
   }
+  #psw-input{
+    width: 360px;
+    height: 6px;
+  }
+  #er5{
+    margin-left: 155px;
+  }
+  
   
